@@ -1,4 +1,4 @@
-setwd("D:/HELP/BigData/Coursera/GettingCleaningData/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
+# This file creates a summary of the training and test mean values for the Human Activity Recognition Data
 
 #1 Merging the training and the test sets to create one data set.
 # first get all test data
