@@ -49,5 +49,5 @@ dt<-rename (dt, `fBodyGyroMag-std()` = `fBodyBodyGyroMag-std()`)
 dt<-rename (dt, `fBodyGyroJerkMag-std()` = `fBodyBodyGyroJerkMag-std()`)
 
 #5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-summary <- dt %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
+summary <- dt %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))
 View(summary)
