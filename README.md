@@ -93,3 +93,4 @@ summary <- dt %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))
 View(summary)
 ```
 
+
